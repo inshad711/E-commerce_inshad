@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <header class="header">
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+        <a href="#" class="logo"> <span>Inshad🔦 </span>_Ali</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">services</a>
+            <a class="active" href="contact.html">contact</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <!-- login  -->
+    <div class="login-form-container">
+        <span id="close-login-form" class="fas fa-times"></span>
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p> forget your password <a href="#">click here</a> </p>
+            <input type="submit" value="login" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn"> google </a>
+                <a href="#" class="btn"> facebook </a>
+            </div>
+            <p> don't have an account <a href="#">create one</a> </p>
+        </form>
+    </div>
+
+    <!-- contact banner      -->
+    <section id="page-header" class="blog-header">
+        <h2>#Contact for More</h2>
+        <p>READ MORE Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </section>
+
+    <!-- bottom to top button -->
+    <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- whatsapp -->
+    <a href="https://wa.me/+918604297055" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- map and contacts detalis -->
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <h2>Visit us or Contact Us</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li><i class="fa fa-map" aria-hidden="true"></i>
+                    <p>32900 Bhairahawa Nepal</p>
+                </li>
+                <li><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                    <p>aliinshad711@gmail.com</p>
+                </li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>+91 8604297055</p>
+                </li>
+                <li><i class="fa fa-clock-four"></i>
+                    <p>24 / 7</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.7198531543977!2d75.12427349236506!3d29.960350505775473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391128c8d5055125%3A0xa0013bc90ab8d7df!2sGuru%20Kashi%20University!5e0!3m2!1sen!2sin!4v1687143106078!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                frameborder="0"></iframe>
+        </div>
+    </section>
+
+
+    <!-- footer  -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Inshad<span>_Ali</span></h3>
+            <p class="footer-links">
+                <a href="home.html" class="link-1">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </p>
+            <p class="footer-company-name">Company Name © 2022</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>32900 Bhairahawa</span> Nepal</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8604297055</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">aliinshad711@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Good quality and good products
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/Inshad786"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/inshad83/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/inshad711"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/inshad-ali786/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- for scroll up script  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- swiper  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="run.js"></script>
+
+</body>
+</html>
